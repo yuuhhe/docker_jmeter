@@ -13,4 +13,4 @@ ENV RMI_PORT 1099
 
 EXPOSE $RMI_PORT
 
-ENTRYPOINT ["jmeter-server", "-Dserver_port=$RMI_PORT"]
+ENTRYPOINT ["bin/jmeter-server", "-Dserver_port=$RMI_PORT"]
